@@ -1,4 +1,4 @@
-sudo
+ssh sudo
 console-setup keyboard-configuration debconf-utils parted
 build-essential
 v4l-utils
@@ -9,9 +9,10 @@ python3-spidev
 python3-smbus2
 avahi-daemon
 ca-certificates curl
-fake-hwclock usbutils
+fake-hwclock nfs-common usbutils
 dosfstools
 dphys-swapfile
+raspberrypi-sys-mods
 usb-modeswitch
 rpi-update
 libmtp-runtime
